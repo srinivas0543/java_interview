@@ -7,8 +7,7 @@ import java.util.stream.Stream;
 public class AnagramsWords {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		List<String> words = Stream.of("pool", "loop", "stream", "arc", "odor", "car",
+				List<String> words = Stream.of("pool", "loop", "stream", "arc", "odor", "car",
 		        "rood", "meats", "fires", "fries", "night", "thing", "mates", "teams").collect(Collectors.toList());
 		
 	         
